@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #191919;
+  --secondary: #fab162;
+}
+
+
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-secondary {
+  background-color: var(--secondary);
+}
+.text-secondary {
+  color: var(--secondary);
+}
+/* -----------------------------------
+   ✨ Custom TailwindCSS Additions
+-------------------------------------*/
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Selection highlight */
+::selection {
+  background-color: var(--secondary);
+  color: #000;
+}
+
+
