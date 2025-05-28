@@ -34,7 +34,7 @@ const SidebarProfileCard = () => {
 
       {/* Profile Image */}
       <img
-        src="/profile.jpg"
+        src="/profileThree.png"
         alt="Qasim Profile"
         className="w-56 h-56 rounded-xl mx-auto object-cover"
       />

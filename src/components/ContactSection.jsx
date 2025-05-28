@@ -1,11 +1,11 @@
 import React, { useRef, useState } from "react";
 import { FaEnvelope } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2"; // ✅ Import Swal
 
 const ContactSection = () => {
   const formRef = useRef();
   const [sending, setSending] = useState(false);
-  const [sent, setSent] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,13 +21,27 @@ const ContactSection = () => {
       .then(
         (result) => {
           setSending(false);
-          setSent(true);
           formRef.current.reset();
+
+          // ✅ Beautiful Swal alert
+          Swal.fire({
+            icon: "success",
+            title: "Message Sent!",
+            text: "Thank you for reaching out. I'll get back to you shortly.",
+            confirmButtonColor: "#23b06c",
+            background: "#191919",
+            theme: "dark",
+          });
         },
         (error) => {
           setSending(false);
-          console.log(error)
-          alert("Something went wrong. Please try again.");
+          console.log(error);
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Something went wrong. Please try again later.",
+            confirmButtonColor: "#f00", // optional styling
+          });
         }
       );
   };
@@ -117,12 +131,6 @@ const ContactSection = () => {
             {sending ? "Sending..." : "SEND MESSAGE"}
           </button>
         </div>
-
-        {sent && (
-          <div className="md:col-span-2 text-green-400 text-sm mt-2">
-            ✅ Your message has been sent successfully!
-          </div>
-        )}
       </form>
     </section>
   );

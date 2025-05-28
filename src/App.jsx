@@ -91,9 +91,9 @@ export default function App() {
         <section data-aos="fade-up" id="testimonials">
           <TestimonialsSection />
         </section>
-        <section data-aos="fade-up" id="pricing">
+        {/* <section data-aos="fade-up" id="pricing">
           <PricingSection />
-        </section>
+        </section> */}
         <section data-aos="fade-up" id="contact">
           <ContactSection />
         </section>
