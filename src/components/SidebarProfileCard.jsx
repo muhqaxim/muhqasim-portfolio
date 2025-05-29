@@ -119,7 +119,7 @@ const SidebarProfileCard = () => {
           onMouseLeave={() => setIsHovered(false)}
           animate={{ width: isHovered ? "100%" : "48px" }}
           transition={{ duration: 0.4, ease: "easeInOut" }}
-          className="h-10 bg-[#fab162] text-black font-semibold px-2 rounded-full overflow-hidden relative flex items-center justify-center"
+          className="h-10 min-w-10 bg-[#fab162] text-black font-semibold px-2 rounded-full overflow-hidden relative flex items-center justify-center"
         >
           <div className="w-full h-full flex items-center justify-center gap-2">
             <motion.div
