@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 :root {
   --primary: #191919;
   --secondary: #fab162;
@@ -47,3 +48,15 @@ html {
 }
 
 
+
+/* Customize bullet color */
+.swiper-pagination-bullet {
+  background-color: #aaa !important; /* Inactive bullet color */
+  opacity: 0.7;
+}
+
+/* Customize active bullet color */
+.swiper-pagination-bullet-active {
+  background-color: #fab162 !important; /* Active bullet color */
+  opacity: 1;
+}

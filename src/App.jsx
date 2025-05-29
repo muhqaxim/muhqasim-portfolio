@@ -44,7 +44,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="bg-primary text-white font-sans h-screen fixed overflow-hidden">
+    <div className="bg-primary text-white font-sans w-full md:h-screen md:fixed overflow-hidden">
       <video
         autoPlay
         loop
@@ -56,19 +56,25 @@ export default function App() {
         Your browser does not support the video tag.
       </video>
       {/* Left Sidebar - Profile Card */}
-      <aside data-aos="zoom-out" className="hidden fixed md:flex items-center top-1/2 -translate-y-1/2 left-0 w-[350px] p-4 z-20">
+      <aside
+        data-aos="zoom-out"
+        className="w-full md:fixed flex items-center md:top-1/2 md:-translate-y-1/2 md:left-0 md:w-[350px] p-4 z-20"
+      >
         <SidebarProfileCard />
       </aside>
 
       {/* Right Sidebar - Vertical Navigation */}
-      <aside data-aos="zoom-out" className="hidden md:flex fixed top-1/2 right-4 -translate-y-1/2 z-20">
+      <aside
+        data-aos="zoom-out"
+        className="hidden md:flex fixed top-1/2 right-4 -translate-y-1/2 z-20"
+      >
         <SidebarNav />
       </aside>
 
       {/* Main Scrollable Content Area */}
       <main
         id="scroll-container"
-        className="z-20 relative w-[50%] ml-[30%]  h-screen overflow-y-scroll hide-scrollbar scroll-smooth px-4 py-12"
+        className="z-20 relative md:w-[50%] md:ml-[30%]  md:h-screen overflow-y-scroll hide-scrollbar scroll-smooth px-4 py-12"
       >
         <section data-aos="fade-up" id="home">
           <IntroSection />
