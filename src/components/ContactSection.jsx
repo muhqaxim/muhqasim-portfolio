@@ -95,23 +95,32 @@ const ContactSection = () => {
         </div>
         <div>
           <label className="block uppercase mb-1">Subject *</label>
-          <input
+          <select
             name="subject"
-            type="text"
             required
-            placeholder="Subject"
-            className="w-full bg-zinc-800 p-2 rounded"
-          />
+            className="w-full bg-zinc-800 p-2 rounded text-white"
+            defaultValue=""
+          >
+            <option value="" disabled>
+              Select a subject
+            </option>
+            <option value="Full-Stack Development">
+              Full-Stack Development
+            </option>
+            <option value="AI Integration / Automation">
+              AI Integration / Automation
+            </option>
+            <option value="Web App Consultation">Web App Consultation</option>
+            <option value="Collaboration / Partnership">
+              Collaboration / Partnership
+            </option>
+            <option value="Job / Freelance Opportunity">
+              Job / Freelance Opportunity
+            </option>
+            <option value="Other">Other</option>
+          </select>
         </div>
-        <div className="md:col-span-2">
-          <label className="block uppercase mb-1">Your Budget (optional)</label>
-          <input
-            name="budget"
-            type="text"
-            placeholder="A range budget for your project"
-            className="w-full bg-zinc-800 p-2 rounded"
-          />
-        </div>
+
         <div className="md:col-span-2">
           <label className="block uppercase mb-1">Message</label>
           <textarea

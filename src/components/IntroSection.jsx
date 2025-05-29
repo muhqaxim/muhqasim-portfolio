@@ -8,10 +8,11 @@ const IntroSection = () => {
         <FaHome /> Introduce
       </h2>
 
-      <h1 className="text-7xl  mb-4">
-        Say Hi from <span className="text-secondary">Qasim</span>,<br />
-        AI & Full Stack <br />
-        Developer
+      <h1 className="text-3xl md:text-5xl mb-4 leading-14">
+        <span className="text-5xl md:text-7xl">
+          Hi, I'm <span className="text-secondary">Qasim</span> — <br />
+        </span>
+        Full-Stack Developer <br/> Specializing in AI Solutions <br />
       </h1>
 
       <p className="text-gray-400 mb-32">

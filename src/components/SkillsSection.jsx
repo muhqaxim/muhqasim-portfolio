@@ -58,7 +58,7 @@ const SkillsSection = () => {
       </h2>
 
       <h2 className="text-5xl mb-6">
-        My <span className="text-secondary">Advantages</span>
+        My <span className="text-secondary">Skills</span>
       </h2>
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
