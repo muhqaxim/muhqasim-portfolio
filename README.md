@@ -2,9 +2,9 @@
 
 _Showcase Your Journey, Inspire Your Future_
 
-![last commit](https://img.shields.io/github/last-commit/muhqasim/muhqasim-portfolio?style=for-the-badge)
+![last commit](https://img.shields.io/github/last-commit/muhqaxim/muhqasim-portfolio?style=for-the-badge)
 ![javascript](https://img.shields.io/badge/javascript-97.3%25-yellow?style=for-the-badge)
-![languages](https://img.shields.io/github/languages/count/muhqasim/muhqasim-portfolio?style=for-the-badge)
+![languages](https://img.shields.io/github/languages/count/muhqaxim/muhqasim-portfolio?style=for-the-badge)
 
 _Built with the tools and technologies:_
 
@@ -92,3 +92,16 @@ Using [npm](https://www.npmjs.com/):
 
 ```bash
 npm start
+```
+---
+
+## Testing
+
+Run the test suite with:
+
+Using [npm](https://www.npmjs.com/):
+
+```bash
+npm test
+```
+
