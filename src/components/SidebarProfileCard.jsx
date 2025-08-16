@@ -33,6 +33,7 @@ const SidebarProfileCard = () => {
         src="/profile.svg"
         alt="Qasim Profile"
         className="w-56 h-56 rounded-xl mx-auto object-cover"
+        loading=""
       />
 
       {/* Info */}
@@ -148,34 +149,3 @@ const SidebarProfileCard = () => {
 };
 
 export default SidebarProfileCard;
-
-// <div className="w-full flex items-center justify-between mt-6 gap-2 relative overflow-hidden">
-//         <a
-//           href="/Qasim-Resume.pdf"
-//           download="Qasim-Resume.pdf"
-//           className="w-11 hover:w-full transition-all duration-500 ease-in-out h-10 bg-[#fab162] text-black font-semibold px-2 rounded-full overflow-hidden relative peer group"
-//         >
-//           <PiReadCvLogoFill
-//             size={20}
-//             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-100 group-hover:opacity-0 transition-opacity duration-500"
-//           />
-//           <div className="whitespace-nowrap transition-opacity duration-500 h-full gap-2 flex items-center justify-center opacity-0 group-hover:opacity-100">
-//             <PiReadCvLogoFill size={20} /> See my resume
-//           </div>
-//         </a>
-
-//         <button
-//           onClick={handleClick}
-//           className="flex-1 transition-all duration-500 ease-in-out bg-secondary text-black font-semibold py-2 rounded-full flex items-center justify-center gap-2 h-10 peer-hover:opacity-0 overflow-hidden min-w-11 relative"
-//         >
-//           <div className="whitespace-nowrap transition-opacity duration-500 h-full gap-2 flex items-center justify-center opacity-100 peer-hover:opacity-0">
-//             <FaEnvelope size={20} /> Let's Talk!
-//           </div>
-//         </button>
-//         <button
-//           onClick={handleClick}
-//           className="transition-all duration-500 ease-in-out bg-secondary text-black font-semibold p-2 rounded-full peer-hover:flex items-center justify-center h-10 hidden opacity-0 peer-hover:opacity-100 min-w-11 relative"
-//         >
-//           <FaEnvelope size={20} />
-//         </button>
-//       </div>
