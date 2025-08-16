@@ -11,31 +11,31 @@ const ProjectsSection = () => {
     {
       title: "GPTProfessor – AI content generator using GPT-based models",
       tags: ["Next.js", "OpenAI", "Tailwind"],
-      image: "/gptprofessor.png",
+      image: "https://res.cloudinary.com/dzgzqwsvz/image/upload/v1755335232/EaseZen-Solutions/Media/fcozdgpurxojqh2m9cjb.png",
       link: "https://gptprofessor.io/",
     },
     {
       title: "IntelliWriter – Full-stack GPT-4 style AI content app",
       tags: ["TypeScript", "Next.js", "Tailwind"],
-      image: "/intelliwriter.png",
+      image: "https://res.cloudinary.com/dzgzqwsvz/image/upload/v1755335259/EaseZen-Solutions/Media/drzptrtgz7pc4dpwurjv.png",
       link: "https://intelliwriter.io/",
     },
     {
       title: "Profounders – Real estate portfolio for UAE investors",
       tags: ["Next.js", "ShadeCDN", "Custom UI"],
-      image: "/profounders.png",
+      image: "https://res.cloudinary.com/dzgzqwsvz/image/upload/v1755335422/EaseZen-Solutions/Media/r4wymhiaikvwovmgw8yb.png",
       link: "https://profounders.vercel.app/",
     },
     {
       title: "Rivala – E-commerce fashion store for modern shoppers",
       tags: ["React", "Vite", "Tailwind"],
-      image: "/rivala.png",
+      image: "https://res.cloudinary.com/dzgzqwsvz/image/upload/v1755335476/EaseZen-Solutions/Media/jgq6kenvzmlqgdsb32fs.png",
       link: "https://rivala-website-frontend.vercel.app/",
     },
     {
       title: "Diyar Yathrib – Corporate site for luxury hotel services",
       tags: ["React", "Vite", "Custom UI"],
-      image: "/diyaryathrib.png",
+      image: "https://res.cloudinary.com/dzgzqwsvz/image/upload/v1755335581/EaseZen-Solutions/Media/lksdb0na4vwxnauvm2cu.png",
       link: "https://diyaryathrib.sa/",
     },
   ];
